@@ -20,7 +20,7 @@ $stmt->close();
 // Handle logout
 if (isset($_GET['logout'])) {
     session_destroy();
-    header("Location: login_page.php");
+    header("Location: ..\index.php");
     exit();
 }
 ?>

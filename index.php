@@ -42,8 +42,8 @@
     <div class="container">
         <p>Find the best deals on books, electronics, and more from your fellow students.</p>
         <a href="products.php" class="button">Browse Products</a>
-        <a href="login_page.php" class="button">Login</a>
-        <a href="registration_page.php" class="button">Register</a>
+        <a href=".\fornt_end\login_page.php" class="button">Login</a>
+        <a href=".\fornt_end\registration_page.php" class="button">Register</a>
     </div>
 </body>
 </html>
