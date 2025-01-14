@@ -16,8 +16,9 @@ require('connection.php');
         $category_name=$_GET['category_name'];
         $category_date=$_GET['category_date'];
        
-       $sql="INSERT INTO `add_category` (`category_name`, `category_date`)VALUES ('$category_name', '$category_date')";
-         if(($result1 = mysqli_query($conn,$sql)) != false) {
+       $sql="INSERT INTO add_category (category_name, category_date)VALUES ('$category_name', '$category_date')";
+
+     if($conn->query($sql)==TRUE) {
         echo "insert category";
        }else{
         echo "not insert the category";
